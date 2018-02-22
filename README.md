@@ -30,6 +30,15 @@ Data-structure and algorithm
         7) Only Right Node
         8) Only Leaf Node
 12) tree_program.php - Binary Tree Program
+    1) inorder
+    2) postorder
+    3) preorder
+    4) bredth force Search (BFT)
+    5) Trees Boundry
+    6) Only Left Node
+    7) Only Right Node
+    8) Only Leaf Node
+    9) Mirror Tree
 13) link.php
     LinkList related Some Algorithm 
     1) insertNode
