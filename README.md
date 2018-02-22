@@ -15,6 +15,23 @@ Data-structure and algorithm
 7) link_print_reverse_recursion.php - Link list reverse using recursion 
 8) link_reverse.php	- Link list reverse
 9) reverse_usingstack.php	- Link List Reverse Using Stack 
+    1) balance parenthasis Problems
+    2) Reverse String Problem Using stacks
 10) spiral_2darray.php	- Spiral 2 Dimension Array Program
 11) tree.php	- Binary Tree Program
 12) tree_program.php - Binary Tree Program
+13) link.php
+    LinkList related Some Algorithm 
+    1) insertNode
+    2) insertNodeAfter
+    3) insertNodeBefore
+    4) insertNodeLast
+    5) deleteHead
+    6) deleteBefore
+    7) deleteAfter
+    8) deleteLast
+    9) reverseList
+    10) reverseListRec - Reverse Link List Using Recursive
+    11) recursiveReverse 
+    12) Sum Two LinkList
+    13) display LinkList
