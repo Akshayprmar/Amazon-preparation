@@ -19,6 +19,16 @@ Data-structure and algorithm
     2) Reverse String Problem Using stacks
 10) spiral_2darray.php	- Spiral 2 Dimension Array Program
 11) tree.php	- Binary Tree Program
+    1) Insert Elements
+    2) Travese
+        1) inorder
+        2) postorder
+        3) preorder
+        4) bredth force Search (BFT)
+        5) Trees Boundry
+        6) Only Left Node
+        7) Only Right Node
+        8) Only Leaf Node
 12) tree_program.php - Binary Tree Program
 13) link.php
     LinkList related Some Algorithm 
