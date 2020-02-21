@@ -5,6 +5,11 @@ pipeline {
             steps {
                 echo 'starting jenkins run...' 
             }
+                post {
+                always {
+                    publishTestResult type:'unittest', fileLocation: './testng.json'
+                }
+            }
         }
     }
 }
