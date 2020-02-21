@@ -11,5 +11,16 @@ pipeline {
                 }
             }
         }
+        stages {
+            stage('metrics') {
+            steps {
+                echo 'starting jenkins metrics run...' 
+            }
+            post {
+                always {
+                    UploadMetricsFile 'name': 'cucumber3', fileLocation: './testng.json'
+                }
+            }
+        }
     }
 }
