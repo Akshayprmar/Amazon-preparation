@@ -1,0 +1,110 @@
+{
+   "testng-results":
+   {
+	   "skipped": "10",
+	   "failed": "20",
+	   "total": "45",
+	   "passed": "15",
+	   "reporter-output": [],
+	   "suite": {
+		  "@name": "Surefire suite",
+		  "@duration-ms": "2070",
+		  "@started-at": "2019-10-23T06:51:36Z",
+		  "@finished-at": "2019-10-23T06:51:38Z",
+		  "groups": [],
+		  "test": {
+			 "@name": "Surefire test",
+			 "@duration-ms": "2070",
+			 "@started-at": "2019-10-23T06:51:36Z",
+			 "@finished-at": "2019-10-23T06:51:38Z",
+			 "class": {
+				"@name": "com.javainuse.test.SpringBootHelloWorldTests",
+				"test-method": [
+				   {
+					  "@status": "PASS",
+					  "@signature": "springTestContextBeforeTestClass()[pri:0, instance:com.javainuse.test.SpringBootHelloWorldTests@4f51b3e0]",
+					  "@name": "springTestContextBeforeTestClass",
+                  "@is-config": "true",
+                  "@duration-ms": "10",
+                  "@started-at": "2019-10-23T12:21:36Z",
+                  "@finished-at": "2019-10-23T12:21:36Z",
+                  "reporter-output": []
+               },
+               {
+                  "@status": "PASS",
+                  "@signature": "springTestContextPrepareTestInstance()[pri:0, instance:com.javainuse.test.SpringBootHelloWorldTests@4f51b3e0]",
+                  "@name": "springTestContextPrepareTestInstance",
+                  "@is-config": "true",
+                  "@duration-ms": "1894",
+                  "@started-at": "2019-10-23T12:21:36Z",
+                  "@depends-on-methods": "org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass",
+                  "@finished-at": "2019-10-23T12:21:38Z",
+                  "reporter-output": []
+               },
+               {
+                  "@status": "PASS",
+                  "@signature": "setup()[pri:0, instance:com.javainuse.test.SpringBootHelloWorldTests@4f51b3e0]",
+                  "@name": "setup",
+                  "@is-config": "true",
+                  "@duration-ms": "15",
+                  "@started-at": "2019-10-23T12:21:38Z",
+                  "@finished-at": "2019-10-23T12:21:38Z",
+                  "reporter-output": []
+               },
+               {
+                  "@status": "PASS",
+                  "@signature": "testEmployee()[pri:0, instance:com.javainuse.test.SpringBootHelloWorldTests@4f51b3e0]",
+                  "@name": "testEmployee",
+                  "@duration-ms": "143",
+                  "@started-at": "2019-10-23T12:21:38Z",
+                  "@finished-at": "2019-10-23T12:21:38Z",
+                  "reporter-output": []
+               },
+               {
+                  "@status": "PASS",
+                  "@signature": "springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.javainuse.test.SpringBootHelloWorldTests@4f51b3e0]",
+                  "@name": "springTestContextBeforeTestMethod",
+                  "@is-config": "true",
+                  "@duration-ms": "0",
+                  "@started-at": "2019-10-23T12:21:38Z",
+                  "@finished-at": "2019-10-23T12:21:38Z",
+                  "params": {
+                     "param": {
+                        "@index": "0",
+                        "value": "public void com.javainuse.test.SpringBootHelloWorldTests.testEmployee() throws java.lang.Exception"
+                     }
+                  },
+                  "reporter-output": []
+               },
+               {
+                  "@status": "PASS",
+                  "@signature": "springTestContextAfterTestClass()[pri:0, instance:com.javainuse.test.SpringBootHelloWorldTests@4f51b3e0]",
+                  "@name": "springTestContextAfterTestClass",
+                  "@is-config": "true",
+                  "@duration-ms": "0",
+                  "@started-at": "2019-10-23T12:21:38Z",
+                  "@finished-at": "2019-10-23T12:21:38Z",
+                  "reporter-output": []
+               },
+               {
+                  "@status": "PASS",
+                  "@signature": "springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.javainuse.test.SpringBootHelloWorldTests@4f51b3e0]",
+                  "@name": "springTestContextAfterTestMethod",
+                  "@is-config": "true",
+                  "@duration-ms": "0",
+                  "@started-at": "2019-10-23T12:21:38Z",
+                  "@finished-at": "2019-10-23T12:21:38Z",
+                  "params": {
+                     "param": {
+                        "@index": "0",
+                        "value": "public void com.javainuse.test.SpringBootHelloWorldTests.testEmployee() throws java.lang.Exception"
+                     }
+                  },
+                  "reporter-output": []
+               }
+            ]
+         }
+      }
+   }
+}
+}
