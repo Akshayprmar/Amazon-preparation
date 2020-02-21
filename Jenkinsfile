@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'starting jenkins run...' 
             }
-                post {
+            post {
                 always {
                     publishTestResult type:'unittest', fileLocation: './testng.json'
                 }
