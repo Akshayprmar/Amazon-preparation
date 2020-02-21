@@ -18,7 +18,7 @@ pipeline {
             }
             post {
                 always {
-                    UploadMetricsFile 'name': 'cucumber3', fileLocation: './testng.json'
+                    UploadMetricsFile name: 'cucumber3', fileLocation: './testng.json'
                 }
             }
         }
