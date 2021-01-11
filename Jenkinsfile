@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-            stage('Unit Test and Code Coverage') {
+            stage('Unit Test and Code Coverage Draft PR') {
             steps {
                 echo 'starting jenkins run...' 
             }
@@ -14,7 +14,7 @@ pipeline {
         stages {
             stage('metrics') {
             steps {
-                echo 'starting jenkins metrics run...' 
+                echo 'starting jenkins metrics run  Draft PR...' 
             }
             post {
                 always {
